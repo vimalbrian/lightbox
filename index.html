@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link type="text/css" href="assets/css/styles.min.css" rel="stylesheet" media="screen" />
+    <title>Lightbox</title>
+</head>
+<body>
+	<div class="gallery">
+    	<h1>Lightbox</h1>
+        <ul>
+            <li>
+                <a href="assets/images/gallery/image1.png" title="Image 1"><img src="assets/images/gallery/image1_thumbnail.jpg"/></a>
+            </li>
+            <li>
+                <a href="assets/images/gallery/image2.jpg" title="Image 2"><img src="assets/images/gallery/image2_thumbnail.jpg"/></a>
+            </li>
+            <li>
+                <a href="assets/images/gallery/image3.jpg" title="Image 3"><img src="assets/images/gallery/image3_thumbnail.jpg"/></a>
+            </li>
+            <li>
+                <a href="assets/images/gallery/image4.jpg" title="Image 4"><img src="assets/images/gallery/image4_thumbnail.jpg"/></a>
+            </li>
+            <li>
+                <a href="assets/images/gallery/image5.jpg" title="Image 5"><img src="assets/images/gallery/image5_thumbnail.jpg"/></a>
+            </li>
+            <li>
+                <a href="assets/images/gallery/image6.jpg" title="Image 6"><img src="assets/images/gallery/image6_thumbnail.jpg"/></a>
+            </li>
+            <li>
+                <a href="assets/images/gallery/image7.jpg" title="Image 7"><img src="assets/images/gallery/image7_thumbnail.jpg"/></a>
+            </li>
+        </ul>
+    </div>
+	<script src="assets/js/vendor/jquery.min.js"></script>
+	<script src="assets/js/lightbox.min.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+			$('.gallery').lightbox();
+		});
+    </script>
+</body>
+</html>
